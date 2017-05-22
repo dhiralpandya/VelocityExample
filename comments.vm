@@ -1,0 +1,21 @@
+All about Velocity comments.
+
+## This is single line comments. 
+
+#*
+
+Multiple lines comments.
+This type of comments are not useful for documentation. 
+
+*#
+
+#**
+
+Java doc style comments, 
+It is useful for documentation. 
+
+@author Dhiral Pandya
+@site Omtlab.com
+@version 7.7
+
+*#

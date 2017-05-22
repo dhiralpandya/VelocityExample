@@ -1,0 +1,5 @@
+Below three values we are passing from java code. 
+
+Sample Type: $sample
+Name : $siteName
+Visitor : $visitorPerPage

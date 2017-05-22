@@ -1,0 +1,7 @@
+Key : name 
+Value : $name
+
+
+Customer Bean Name : $customerBean.name
+Customer Bean Company : $customerBean.getCompany()
+Customer Bean Method Call : $customerBean.getNameCompany()

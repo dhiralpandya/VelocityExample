@@ -1,0 +1,5 @@
+Example of foreach in velocity.
+
+#foreach($site in $sites) 
+Site Name : $site
+#end

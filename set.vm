@@ -1,0 +1,31 @@
+#set($i = 0)
+
+i : $i
+
+#set($count = $i+1)
+
+count : $count
+
+#set($name = "omtlab")
+
+name : $name
+
+
+#set($fromJava = $someValue)
+
+From Java : $fromJava
+
+#set($joinString = "$fromJava$name")
+
+Join Two String : $joinString
+
+#set($sites = ["omtlab.com","google.com"])
+
+
+#foreach($site in $sites) 
+
+Site $count : $site
+
+#set($count = $count+1)
+
+#end

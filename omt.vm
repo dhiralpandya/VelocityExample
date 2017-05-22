@@ -1,0 +1,17 @@
+omt om sai ram 
+
+$omtdata
+
+
+Name : $customer.name
+Company : $customer.company
+
+
+Name_Company : $cus.getNameCompany()
+
+#set($i = 0)
+
+#foreach($str in $names)
+	#set($i = $i+1)
+	$i : $str
+#end

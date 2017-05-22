@@ -1,0 +1,3 @@
+#parse("header.vm")
+$contentText
+#parse("footer.vm")

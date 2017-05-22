@@ -1,0 +1,35 @@
+#if($i == 0) 
+i is zero
+#end
+
+#set($i = 1)
+
+#if(!($i == 0))
+i is non zero
+#end
+
+#if($i == 2)
+i is two
+#elseif ($i == 1)
+i is one
+#end
+
+#set($name = "omt")
+
+#if($name == "omt")
+name is omt
+#end
+
+#if($name == "lab" || $i == 1)
+$name OR $i 
+#end
+
+#if($name == "lab" || $i == 2)
+$name OR $i 
+#end
+
+
+
+#if($name == "omt" && $i == 1)
+$name AND $i 
+#end
